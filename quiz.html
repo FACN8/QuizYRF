@@ -5,13 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Quiz JS</title>
+    <link rel="stylesheet" type="text/css" href="quiz2.css">
 </head>
 <body>
-    <div class="quiz"></div>
-    <div class="results"></div>
-
-
-
-    <button class="quizbutton"></button>
+    <div id="welcomescreen">
+        <div id="explain" class="text">
+            Welcome to the best trivia in the world made in a day or two in a founders and coders workshop.
+        </div>    
+        <div id="start" class="buttons text" style="background-color: green;" onclick="getquestion();">
+                Start
+        </div>    
+    </div>
+    <div id="quiz">
+        <div id="progbar">
+            
+        </div>    
+        <div id="timer">
+            
+        </div>    
+        <div id="question" class="text">
+            How many besseys does Rabea have?
+        </div>    
+        <div>
+            <div id="ans1" class="answers buttons text" style="background-color: gray">One</div>
+            <div id="ans2" class="answers buttons text" style="background-color: gray">Seventeen</div>
+            <div id="ans3" class="answers buttons text" style="background-color: gray">Two</div>
+            <div id="ans4" class="answers buttons text" style="background-color: gray">Gazillion</div>
+            <div id="check" class="buttons text" style="background-color: green;" onclick="checkquestion();">Check</div>
+        </div>
+        
+        <div id="next">
+            <div id="solution" class="text">The right answer is 4</div>
+            <div id="continue" class="buttons text" style="background-color: green;" onclick="getquestion();">Continue</div>
+        </div>
+    </div>
+    <div id="results">
+        <div id="result" class="text">
+            The results are:
+        </div>
+        <div id="score" class="text">
+            
+        </div>
+        <div id="reset" class="buttons" style="background-color: green;">
+            Reset
+        </div>    
+    </div>
+<script src="Quiz3.js"></script>
 </body>
 </html>

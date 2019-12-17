@@ -1,0 +1,96 @@
+#welcomescreen{
+    visibility: hidden;
+        /*all center */ 
+}
+#quiz{
+    visibility: visible;
+}
+#results{
+   visibility: hidden;
+}
+.text{
+    background-color:white	;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid #white;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: 2px solid #332145;
+
+}
+.buttons{
+    width: 250px;
+    font-size: 20px;
+    border: 2px solid #332145;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+#start{
+  /* on click hideeswelcomescreen & make screen visable*/ 
+}
+#progbar{
+
+}
+#timer{
+
+}
+.question  {
+    font-family: "monospace";
+    background-color: #660066
+    ;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    padding: 2px 0px;
+    
+}
+ .answers {
+    background-color: #660066 ;
+    width: 250px;
+    font-size: 20px;
+    color: #black;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+
+}
+#ans1:hover, #ans2:hover, #ans3:hover, #ans4:hover {
+    cursor: pointer;
+    background-color:  #660066    ;			;
+     /* on mouse click change color */
+}
+ #ans1:focus, #ans2:focus, #ans3:focus, #ans4:focus {
+    outline: 0;
+ }
+#check{
+    visibility: visible;
+    
+
+}
+#next{
+    visibility: hidden;
+
+}
+#solution{
+    visibility: hidden;
+}
+#continue{
+    visibility: hidden;
+
+}
+#score{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+  background:  #660066;
+}
+
+#result{
+
+}

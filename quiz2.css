@@ -52,6 +52,18 @@ body.wrong{
     color: white;
     outline: none;
 }
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
 .str-btn, .nxt-btn {
     font-size: 1.5rem;
     font-weight: bold;
@@ -59,5 +71,12 @@ body.wrong{
 }
 
 .hide {
-    display: inline;
+    display: none;
 }
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

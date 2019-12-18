@@ -14,7 +14,6 @@ nextButton.addEventListener('click', () => {
 
 
 function startGame() {
-    console.log('Started')
     startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
@@ -70,14 +69,15 @@ function setStatusClass(element, correct) {
     if (correct) {
         element.classList.add('correct')
     } else {
-        element.classList.add('wrong')
+            element.classList.add('wrong')
+        }
     }
-}
 
 function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
 }
+
 
 const questions = [
     {
